@@ -1,4 +1,4 @@
-### Develop Stencil components inside an Angular development environment
+## Develop Stencil components inside an Angular development environment
 
 ##### StencilJS is a custom component compiler that allows us to develop custom web components once and run them in any web app (regardless of framework).
 

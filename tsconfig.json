@@ -9,6 +9,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es5",
+    "jsx": "preserve",
     "typeRoots": [
       "node_modules/@types"
     ],
@@ -16,5 +17,9 @@
       "es2017",
       "dom"
     ]
-  }
+  },
+  "include": [
+    "src",
+    "types/jsx.d.ts"
+  ]
 }

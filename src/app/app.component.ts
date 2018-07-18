@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  
+  title = 'Angular and StencilJS together!';
+
+  items = ['Angular', 'React', 'Vue', 'Ember', 'Stencil']
+
+  selectedItem: string;
+
+  onItemSelected(event: CustomEvent) {
+    this.selectedItem = event.detail;
+  }
 }

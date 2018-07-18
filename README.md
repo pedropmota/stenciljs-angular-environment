@@ -9,7 +9,7 @@ Imagine a scenario where we have an [Angular](https://angular.io/) app and we wa
 In this tutorial we'll configure an Angular project (created with the [CLI](https://cli.angular.io/)) to build the Stencil components automatically during developmet, having the changes refresh in "real-dev-time" since it'll all be part of the same project. We'll also want to compile the components to production, once they're ready.
 
 
-## 1. Adding Stencil support to our project
+## 1. Adding Stencil support to our Angular project
 
 We'll start by adding the `stencil/core` and `stencil/sass` packages. If you're not interested in adding [Sass](https://sass-lang.com/) support, feel free to skip that one.
 
@@ -43,7 +43,7 @@ exports.config = {
 };
 ```
 
-And another config tweak we'll need, is to add JSX support to TypeScript. In the `tsconfig.json` file of your project, add:
+And another config tweak we'll need to do, is to add JSX support to TypeScript. In the `tsconfig.json` file of your project, add:
 
 ```javascript
 //inside the "compilerOptions" section:
